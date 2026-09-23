@@ -34,11 +34,7 @@ def calcul_1(num,num2,tried,correct,false_ans,finich):
                 num=random.choice(nums)
                 num2=random.choice(nums)
                 return calcul_1(num,num2,tried,correct,false_ans,finich)
-    if tried==tries:
-        finich=True
-        
-        
-
+   
     if finich :
         print(f"correct answers{correct}")
         print(f"incorrect answer{false_ans}")
