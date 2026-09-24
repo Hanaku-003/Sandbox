@@ -10,7 +10,5 @@ while seconds!=SE :
         m = SE // 60
         print(f"{m:02d}:{s:02d}")
         time.sleep(0.01)
-        s+=1
         SE+=1
-        m+=s//60
 print("TIME IS UP ")
