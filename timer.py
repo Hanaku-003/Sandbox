@@ -13,5 +13,4 @@ while seconds!=SE :
         s+=1
         SE+=1
         m+=s//60
-
-print("time is up")
+print("TIME IS UP ")
