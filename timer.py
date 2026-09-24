@@ -2,12 +2,16 @@ import time
 SE=0
 m=SE//60
 s=0
-seconds=int(input("how much seconds?"))
-while seconds!=SE:
+seconds=int(input("seconds="))+1
+minutes=int(input("minutes="))
+seconds+=minutes*60
+while seconds!=SE :
         s = SE % 60
         m = SE // 60
         print(f"{m:02d}:{s:02d}")
-        time.sleep(1)
+        time.sleep(0.01)
         s+=1
         SE+=1
         m+=s//60
+
+print("time is up")
