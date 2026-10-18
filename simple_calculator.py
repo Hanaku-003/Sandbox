@@ -35,7 +35,7 @@ elif choice == "3":
        
     
 elif choice == "4":
-        while choice==4:
+        while choice=="4":
                 if b==0:
                         print("please try again without 0 as a secound number")
                         b=float(input("enter second number :"))
