@@ -44,8 +44,7 @@ elif choice == "4":
 else:
     result="IDKا"
                 
-         
-print(result)
+        
 print("result is :",result)
 
 extra=input ("to round your result, please print 'round'. only . else. just print'no'")
